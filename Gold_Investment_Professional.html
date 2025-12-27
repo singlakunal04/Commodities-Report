@@ -1,0 +1,1253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gold Investment Analysis 2025 - Professional Report</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html, body { height: 100%; }
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); 
+            color: #2c3e50; 
+            line-height: 1.6;
+        }
+        
+        header { 
+            background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%); 
+            padding: 2rem 0; 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2); 
+            position: sticky; 
+            top: 0; 
+            z-index: 1000;
+        }
+        
+        .header-container { 
+            max-width: 1400px; 
+            margin: 0 auto; 
+            padding: 0 2rem; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center;
+        }
+        
+        .header-title h1 { 
+            color: #1a1a1a; 
+            font-size: 2.5rem; 
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .header-title p { 
+            color: #333; 
+            font-size: 0.95rem; 
+            margin-top: 0.5rem;
+        }
+        
+        .linkedin-badge { 
+            background: white; 
+            padding: 1rem 1.5rem; 
+            border-radius: 8px; 
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+        
+        .linkedin-badge a { 
+            color: #0077B5; 
+            text-decoration: none; 
+            font-weight: 600; 
+            font-size: 1rem;
+        }
+        
+        .linkedin-badge a:hover { text-decoration: underline; color: #005a87; }
+        
+        .container { 
+            max-width: 1400px; 
+            margin: 2rem auto; 
+            padding: 0 2rem;
+        }
+        
+        section { 
+            background: white; 
+            margin-bottom: 2rem; 
+            border-radius: 12px; 
+            padding: 2.5rem; 
+            box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+        }
+        
+        h2 { 
+            color: #ffd700; 
+            font-size: 2rem; 
+            margin-bottom: 1.5rem; 
+            border-bottom: 4px solid #ffd700; 
+            padding-bottom: 1rem;
+        }
+        
+        h3 { 
+            color: #2c3e50; 
+            font-size: 1.3rem; 
+            margin-top: 2rem; 
+            margin-bottom: 1.2rem;
+            font-weight: 600;
+        }
+        
+        .metrics-grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+            gap: 1.5rem; 
+            margin-bottom: 2rem;
+        }
+        
+        .metric-card { 
+            background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%); 
+            padding: 2rem; 
+            border-radius: 12px; 
+            text-align: center; 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.12); 
+            border: 2px solid #ffc700;
+        }
+        
+        .metric-card h4 { 
+            color: #1a1a1a; 
+            font-size: 0.85rem; 
+            text-transform: uppercase; 
+            letter-spacing: 1px;
+            margin-bottom: 0.8rem;
+        }
+        
+        .metric-value { 
+            font-size: 2.2rem; 
+            font-weight: bold; 
+            color: #1a1a1a;
+        }
+        
+        .metric-change { 
+            font-size: 1rem; 
+            color: #27ae60; 
+            margin-top: 0.5rem;
+            font-weight: 600;
+        }
+        
+        .chart-container { 
+            position: relative; 
+            height: 500px; 
+            margin: 2.5rem 0; 
+            background: #f9f9f9; 
+            padding: 2rem; 
+            border-radius: 10px; 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            border-left: 5px solid #ffd700;
+        }
+        
+        .chart-title { 
+            font-size: 1.2rem; 
+            font-weight: 700; 
+            color: #2c3e50; 
+            margin-bottom: 1.5rem; 
+            text-align: center;
+        }
+        
+        .charts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            margin: 2rem 0; 
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        th { 
+            background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%); 
+            color: #1a1a1a; 
+            padding: 1.2rem; 
+            text-align: left; 
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+        
+        td { 
+            padding: 1rem 1.2rem; 
+            border-bottom: 1px solid #ecf0f1;
+            font-size: 0.95rem;
+        }
+        
+        tr:hover { background: #f5f5f5; }
+        tr:nth-child(even) { background: #f9f9f9; }
+        
+        .highlight { 
+            background: #fff3cd; 
+            padding: 2rem; 
+            border-radius: 10px; 
+            margin: 2rem 0; 
+            border-left: 5px solid #ffc107;
+        }
+        
+        .highlight ul { list-style: none; margin-top: 1rem; }
+        .highlight li { padding: 0.5rem 0; margin-left: 1.5rem; line-height: 1.6; }
+        .highlight li:before { content: "✓"; color: #ffc107; font-weight: bold; margin-left: -1.5rem; margin-right: 0.5rem; }
+        
+        footer { 
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%); 
+            color: white; 
+            text-align: center; 
+            padding: 3rem 2rem; 
+            margin-top: 4rem;
+        }
+        
+        .footer-content { max-width: 1400px; margin: 0 auto; }
+        .footer-linkedin { margin-top: 1.5rem; }
+        .footer-linkedin a { color: #ffd700; text-decoration: none; font-weight: 600; }
+        .footer-linkedin a:hover { text-decoration: underline; }
+        
+        .badge { display: inline-block; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.85rem; font-weight: 600; margin: 0.25rem; }
+        .badge.positive { background: #d4edda; color: #155724; }
+        
+        p { margin-bottom: 1rem; text-align: justify; line-height: 1.8; }
+        
+        @media (max-width: 768px) {
+            .header-container { flex-direction: column; gap: 1rem; }
+            .header-title h1 { font-size: 1.8rem; }
+            h2 { font-size: 1.5rem; }
+            .chart-container { height: 350px; }
+            .charts-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="header-title">
+                <h1>🏆 GOLD INVESTMENT ANALYSIS 2025</h1>
+                <p>Professional Report with 19 Charts & Complete Data Analysis | 27th December 2025 | Current Price: ₹14,000/gram</p>
+            </div>
+            <div class="linkedin-badge">
+                <a href="https://www.linkedin.com/in/singlakunal04" target="_blank">💼 Kunal Singla | LinkedIn</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- SECTION 1 -->
+        <section>
+            <h2>1. Executive Summary & Current Market Position</h2>
+            
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <h4>Gold Price Per Gram</h4>
+                    <div class="metric-value">₹14,000</div>
+                    <div class="metric-change">Current Price</div>
+                </div>
+                <div class="metric-card">
+                    <h4>Gold Price Per Tola</h4>
+                    <div class="metric-value">₹1,40,000</div>
+                    <div class="metric-change">10 grams</div>
+                </div>
+                <div class="metric-card">
+                    <h4>YTD Return</h4>
+                    <div class="metric-value">+82.3%</div>
+                    <div class="metric-change">2025 Performance</div>
+                </div>
+                <div class="metric-card">
+                    <h4>12-Month Expected Return</h4>
+                    <div class="metric-value">+13.2%</div>
+                    <div class="metric-change">Probability-Weighted</div>
+                </div>
+            </div>
+
+            <h3>Market Overview</h3>
+            <p>Gold has delivered exceptional returns in 2025, rising 82.3% year-to-date to reach ₹14,000 per gram. This explosive rally reflects structural support from central bank accumulation (634 MT in first 9 months), geopolitical uncertainty (Russia-Ukraine, Taiwan, Middle East), weakening real interest rates (-0.1% to -0.2%), and accelerating de-dollarization trends. The INR gold price movement from ₹7,678/gram (start of 2025) to ₹14,000/gram has been driven by: (1) International gold price appreciation of approximately 50% in USD terms, and (2) Rupee depreciation from 83.5 to 89.81 (7.5% weakness) adding significant INR price tailwind.</p>
+
+            <p>Over the past five years (2020-2025), gold has delivered a compound annual growth rate (CAGR) of 22.8% in INR terms, substantially outperforming traditional fixed deposits (6-7% CAGR) and matching equity market returns with significantly lower volatility (12-15% vs 18-22% for equities). This performance underscores gold's dual role as both a wealth preservation tool during crises and a tactical investment asset for portfolio diversification. The structural factors supporting gold prices remain intact for the medium to long term.</p>
+        </section>
+
+        <!-- SECTION 2 -->
+        <section>
+            <h2>2. Historical Gold Price Analysis (2010-2025)</h2>
+            
+            <h3>Chart 1: 15-Year Gold Price Trend (₹/gram)</h3>
+            <div class="chart-container">
+                <canvas id="chart1"></canvas>
+            </div>
+
+            <h3>Chart 2: Annual Gold Returns by Year (%)</h3>
+            <div class="chart-container">
+                <canvas id="chart2"></canvas>
+            </div>
+
+            <h3>15-Year Historical Price Data Table</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Year</th>
+                        <th>Opening (₹/g)</th>
+                        <th>Closing (₹/g)</th>
+                        <th>Return %</th>
+                        <th>Peak (₹/g)</th>
+                        <th>Low (₹/g)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>2010</strong></td>
+                        <td>2,020</td>
+                        <td>2,650</td>
+                        <td style="color: #27ae60;">+31.2%</td>
+                        <td>2,700</td>
+                        <td>2,000</td>
+                    </tr>
+                    <tr>
+                        <td><strong>2015</strong></td>
+                        <td>2,740</td>
+                        <td>2,880</td>
+                        <td style="color: #27ae60;">+5.1%</td>
+                        <td>3,220</td>
+                        <td>2,600</td>
+                    </tr>
+                    <tr>
+                        <td><strong>2020</strong></td>
+                        <td>3,820</td>
+                        <td>5,620</td>
+                        <td style="color: #27ae60;">+47.1%</td>
+                        <td>5,870</td>
+                        <td>3,750</td>
+                    </tr>
+                    <tr>
+                        <td><strong>2024</strong></td>
+                        <td>6,820</td>
+                        <td>7,678</td>
+                        <td style="color: #27ae60;">+12.6%</td>
+                        <td>7,890</td>
+                        <td>6,620</td>
+                    </tr>
+                    <tr style="background: #fff3cd; font-weight: bold;">
+                        <td>2025 (YTD)</td>
+                        <td>7,678</td>
+                        <td>14,000</td>
+                        <td style="color: #27ae60;">+82.3%</td>
+                        <td>14,250</td>
+                        <td>7,520</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="highlight">
+                <strong>Key Insights:</strong>
+                <ul>
+                    <li>Gold delivered positive returns in 11 out of 15 years with only 4 down years, demonstrating resilience</li>
+                    <li>2025's +82.3% return is the strongest in this 15-year period, reflecting exceptional structural support</li>
+                    <li>Price doubled from ₹7,678/gram to ₹14,000/gram within single calendar year</li>
+                    <li>Long-term CAGR from 2010-2025 is approximately 10.8% annually</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- SECTION 3 -->
+        <section>
+            <h2>3. Central Bank Gold Demand Analysis</h2>
+            
+            <h3>Chart 3: Annual Central Bank Gold Purchases (2010-2025)</h3>
+            <div class="chart-container">
+                <canvas id="chart3"></canvas>
+            </div>
+
+            <h3>Chart 4: Top Central Bank Gold Buyers (2025 YTD - 634 MT Total)</h3>
+            <div class="chart-container">
+                <canvas id="chart4"></canvas>
+            </div>
+
+            <h3>Central Bank Gold Holdings & Purchases</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Country</th>
+                        <th>2024 Purchases (MT)</th>
+                        <th>2025 YTD 9M (MT)</th>
+                        <th>Total Holdings (MT)</th>
+                        <th>Reserve %</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>China</strong></td>
+                        <td>142.5</td>
+                        <td>156.2</td>
+                        <td>2,288</td>
+                        <td>3.2%</td>
+                    </tr>
+                    <tr>
+                        <td><strong>India (RBI)</strong></td>
+                        <td>54.13</td>
+                        <td>42.8</td>
+                        <td>880.18</td>
+                        <td>14.7%</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Russia</strong></td>
+                        <td>98.6</td>
+                        <td>78.4</td>
+                        <td>2,332</td>
+                        <td>29.8%</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Saudi Arabia</strong></td>
+                        <td>32.4</td>
+                        <td>28.5</td>
+                        <td>322.5</td>
+                        <td>8.2%</td>
+                    </tr>
+                    <tr style="background: #fff3cd; font-weight: bold;">
+                        <td>WORLD TOTAL</td>
+                        <td>516.2</td>
+                        <td>634</td>
+                        <td>16,500+</td>
+                        <td>10.8%</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="highlight">
+                <strong>Structural Support for Gold Prices:</strong>
+                <ul>
+                    <li>Central banks purchased 634 tonnes in first 9 months of 2025, representing +12% year-over-year growth</li>
+                    <li>This 634 MT run-rate annualizes to approximately 850 MT for full 2025, creating structural demand floor</li>
+                    <li>De-dollarization trend with China, India, Russia, and Middle Eastern CBs shifting reserves toward gold</li>
+                    <li>Structural mega-trend expected to continue for 5-10+ years, supporting sustained gold price appreciation</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- SECTION 4 -->
+        <section>
+            <h2>4. Gold vs Silver: Comparative Analysis</h2>
+            
+            <h3>Chart 5: Historical Returns Comparison (1925-2025)</h3>
+            <div class="chart-container">
+                <canvas id="chart5"></canvas>
+            </div>
+
+            <h3>Chart 6: Gold Price Trend (2015-2025)</h3>
+            <div class="chart-container" style="float: left; width: 48%; margin-right: 2%;">
+                <canvas id="chart6"></canvas>
+            </div>
+
+            <h3>Chart 7: Silver Price Trend (2015-2025)</h3>
+            <div class="chart-container" style="float: left; width: 48%;">
+                <canvas id="chart7"></canvas>
+            </div>
+
+            <div style="clear: both;"></div>
+
+            <h3>Chart 8: Gold-Silver Ratio (GSR) Trend</h3>
+            <div class="chart-container">
+                <canvas id="chart8"></canvas>
+            </div>
+
+            <h3>Gold vs Silver Performance Comparison</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Metric</th>
+                        <th>Gold</th>
+                        <th>Silver</th>
+                        <th>Implication</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>100-Year CAGR (1925-2023)</strong></td>
+                        <td>4.81%</td>
+                        <td>3.71%</td>
+                        <td>Gold: better long-term stability</td>
+                    </tr>
+                    <tr>
+                        <td><strong>5-Year CAGR (2020-2025)</strong></td>
+                        <td>22.8%</td>
+                        <td>28.4%</td>
+                        <td>Silver: recent strength but higher risk</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Annual Volatility</strong></td>
+                        <td>12-18%</td>
+                        <td>18-28%</td>
+                        <td>Gold: 1.5x less volatile than silver</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Crisis Hedge Quality</strong></td>
+                        <td>EXCELLENT</td>
+                        <td>GOOD</td>
+                        <td>Gold: proven across 100 years of data</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- SECTION 5 -->
+        <section>
+            <h2>5. Macro Parameters Impact on Gold</h2>
+            
+            <h3>Chart 9: Real Interest Rates vs Gold Price</h3>
+            <div class="chart-container">
+                <canvas id="chart9"></canvas>
+            </div>
+
+            <h3>Chart 10: Gold Price vs Inflation Rates</h3>
+            <div class="chart-container">
+                <canvas id="chart10"></canvas>
+            </div>
+
+            <h3>Macro Factors Impacting Gold Prices</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Macro Factor</th>
+                        <th>Current Level</th>
+                        <th>Impact Status</th>
+                        <th>Bullish For Gold</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="background: #d4edda;">
+                        <td><strong>Real Interest Rates</strong></td>
+                        <td>-0.1% to +0.1%</td>
+                        <td>HIGHLY BULLISH</td>
+                        <td>When < -0.5%</td>
+                    </tr>
+                    <tr>
+                        <td><strong>US 10Y Treasury Yield</strong></td>
+                        <td>4.1%</td>
+                        <td>NEUTRAL</td>
+                        <td>When < 3.5%</td>
+                    </tr>
+                    <tr style="background: #d4edda;">
+                        <td><strong>USD Index (DXY)</strong></td>
+                        <td>101.0</td>
+                        <td>BULLISH (Weakening)</td>
+                        <td>When < 95</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Indian Rupee (INR/USD)</strong></td>
+                        <td>89.81</td>
+                        <td>BULLISH (Weak)</td>
+                        <td>When > 92</td>
+                    </tr>
+                    <tr style="background: #d4edda;">
+                        <td><strong>Central Bank Buying</strong></td>
+                        <td>634 MT YTD</td>
+                        <td>HIGHLY BULLISH</td>
+                        <td>When > 600 MT/year</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="highlight">
+                <strong>Current Macro Environment:</strong>
+                <ul>
+                    <li>6 out of 8 primary macro factors are BULLISH for gold currently</li>
+                    <li>Negative real rates provide optimal environment for gold appreciation</li>
+                    <li>Weak rupee and weak dollar both provide tailwinds to INR gold prices</li>
+                    <li>Record central bank buying creates structural support at higher price levels</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- SECTION 6 -->
+        <section>
+            <h2>6. Price Projections & Scenario Analysis</h2>
+            
+            <h3>Chart 11: Scenario Probability Distribution</h3>
+            <div class="chart-container">
+                <canvas id="chart11"></canvas>
+            </div>
+
+            <h3>Chart 12: Price Forecast Path (All Three Scenarios)</h3>
+            <div class="chart-container">
+                <canvas id="chart12"></canvas>
+            </div>
+
+            <h3>12-Month Price Scenario Analysis</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Scenario</th>
+                        <th>Current Price</th>
+                        <th>Target (Dec 2026)</th>
+                        <th>Return</th>
+                        <th>Per Tola</th>
+                        <th>Probability</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="background: #d4edda;">
+                        <td><strong>BULL CASE</strong></td>
+                        <td>₹14,000/g</td>
+                        <td>₹18,000/g</td>
+                        <td style="color: #27ae60; font-weight: bold;">+28.6%</td>
+                        <td>₹1,80,000</td>
+                        <td>30%</td>
+                    </tr>
+                    <tr style="background: #fff3cd;">
+                        <td><strong>BASE CASE</strong></td>
+                        <td>₹14,000/g</td>
+                        <td>₹16,000/g</td>
+                        <td style="color: #27ae60; font-weight: bold;">+14.3%</td>
+                        <td>₹1,60,000</td>
+                        <td>55%</td>
+                    </tr>
+                    <tr style="background: #f8d7da;">
+                        <td><strong>BEAR CASE</strong></td>
+                        <td>₹14,000/g</td>
+                        <td>₹11,000/g</td>
+                        <td style="color: #e74c3c; font-weight: bold;">-21.4%</td>
+                        <td>₹1,10,000</td>
+                        <td>15%</td>
+                    </tr>
+                    <tr style="background: #e3f2fd; font-weight: bold;">
+                        <td>EXPECTED VALUE</td>
+                        <td>₹14,000/g</td>
+                        <td>₹15,850/g</td>
+                        <td style="color: #2c3e50;">+13.2%</td>
+                        <td>₹1,58,500</td>
+                        <td>100%</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="highlight">
+                <strong>Scenario Definitions & Drivers:</strong>
+                <ul>
+                    <li><strong>Bull Case (₹18,000/g):</strong> Federal Reserve cuts rates to 3.5%, real rates turn negative, CB buying accelerates >800 MT/year, geopolitical escalation intensifies</li>
+                    <li><strong>Base Case (₹16,000/g, 55% probability - MOST LIKELY):</strong> Rates remain stable at 4.0-4.5%, CB buying continues 600-700 MT/year, geopolitical tensions stable</li>
+                    <li><strong>Bear Case (₹11,000/g):</strong> Unexpected Fed rate hikes, real rates positive, strong dollar, risk-on sentiment, CB buying slows significantly</li>
+                    <li><strong>Expected Value (₹15,850/g):</strong> Probability-weighted return of +13.2% represents realistic 12-month outcome</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- SECTION 7 -->
+        <section>
+            <h2>7. Gold Performance During Financial Crises</h2>
+            
+            <h3>Chart 13: Asset Performance During Major Crises</h3>
+            <div class="chart-container">
+                <canvas id="chart13"></canvas>
+            </div>
+
+            <h3>Chart 14: 100-Year Returns Comparison (1925-2023)</h3>
+            <div class="chart-container">
+                <canvas id="chart14"></canvas>
+            </div>
+
+            <h3>Gold's Crisis Performance - Historical Data</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Crisis Period</th>
+                        <th>Gold Return</th>
+                        <th>S&P 500 Return</th>
+                        <th>Bond Return</th>
+                        <th>Duration</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="background: #d4edda;">
+                        <td><strong>2008 Financial Crisis (Nov 2007-Feb 2009)</strong></td>
+                        <td style="color: #27ae60; font-weight: bold;">+17.8%</td>
+                        <td style="color: #e74c3c; font-weight: bold;">-57.0%</td>
+                        <td style="color: #27ae60;">+20.3%</td>
+                        <td>16 months</td>
+                    </tr>
+                    <tr style="background: #d4edda;">
+                        <td><strong>COVID-19 Crash (Feb-June 2020)</strong></td>
+                        <td style="color: #27ae60; font-weight: bold;">+30.2%</td>
+                        <td style="color: #e74c3c; font-weight: bold;">-35.0%</td>
+                        <td style="color: #27ae60;">+10.7%</td>
+                        <td>5 months</td>
+                    </tr>
+                    <tr style="background: #d4edda;">
+                        <td><strong>2022-2023 Equity Bear Market</strong></td>
+                        <td style="color: #27ae60; font-weight: bold;">+12.5%</td>
+                        <td style="color: #e74c3c; font-weight: bold;">-28.7%</td>
+                        <td style="color: #e74c3c;">-13.0%</td>
+                        <td>14 months</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>100-Year Returns: $1 Invested in 1925</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Asset Class</th>
+                        <th>Value in 2023</th>
+                        <th>Annualized CAGR</th>
+                        <th>Summary</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="background: #ffd700; color: #1a1a1a;">
+                        <td><strong>GOLD</strong></td>
+                        <td>$2,062.60</td>
+                        <td><strong>4.81%</strong></td>
+                        <td>Steady wealth preservation, beats inflation by 2-3% annually</td>
+                    </tr>
+                    <tr style="background: #c0c0c0; color: #1a1a1a;">
+                        <td><strong>SILVER</strong></td>
+                        <td>$24.30</td>
+                        <td><strong>3.71%</strong></td>
+                        <td>Lower returns than gold, significantly higher volatility</td>
+                    </tr>
+                    <tr style="background: #3498db; color: white;">
+                        <td><strong>S&P 500</strong></td>
+                        <td>$300,538</td>
+                        <td><strong>10.3%</strong></td>
+                        <td>Equities deliver 145x better returns BUT with higher crash risk</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="highlight">
+                <strong>Gold's Role in Balanced Portfolio:</strong>
+                <ul>
+                    <li>Gold is NOT a growth engine—equities deliver 2-3x better returns over 20+ years</li>
+                    <li>Gold IS the ultimate crisis hedge—delivered 15-30% gains during all major crises</li>
+                    <li>Negative correlation to equities provides portfolio protection during market crashes</li>
+                    <li>Optimal strategy: 70-80% equities for wealth building + 10-15% gold for protection + 5-10% bonds for stability</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- SECTION 8 -->
+        <section>
+            <h2>8. Global Gold Demand Analysis</h2>
+            
+            <h3>Chart 15: Global Gold Demand by Segment</h3>
+            <div class="chart-container">
+                <canvas id="chart15"></canvas>
+            </div>
+
+            <h3>Chart 16: Top Gold Consuming Countries (2024)</h3>
+            <div class="chart-container">
+                <canvas id="chart16"></canvas>
+            </div>
+
+            <h3>Chart 17: India's Seasonal Demand Pattern</h3>
+            <div class="chart-container">
+                <canvas id="chart17"></canvas>
+            </div>
+
+            <h3>Global Gold Demand Breakdown (2024)</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Demand Segment</th>
+                        <th>Volume (MT)</th>
+                        <th>% of Total</th>
+                        <th>YoY Growth</th>
+                        <th>Key Drivers</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Jewelry</strong></td>
+                        <td>1,850 MT</td>
+                        <td>44.2%</td>
+                        <td>+2.3%</td>
+                        <td>Wedding seasons, festivals, cultural traditions</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Investment</strong></td>
+                        <td>1,020 MT</td>
+                        <td>24.3%</td>
+                        <td>+8.2%</td>
+                        <td>Portfolio hedging, crisis concerns, retail interest</td>
+                    </tr>
+                    <tr style="background: #e74c3c; color: white;">
+                        <td><strong>Central Banks</strong></td>
+                        <td>1,037 MT</td>
+                        <td>24.7%</td>
+                        <td>+10.1%</td>
+                        <td>De-dollarization, reserve building, strategic accumulation</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Industrial</strong></td>
+                        <td>310 MT</td>
+                        <td>7.4%</td>
+                        <td>+3.1%</td>
+                        <td>Electronics, solar, medical, semiconductors</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>India's Gold Market Specifics</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Metric</th>
+                        <th>Value/Status</th>
+                        <th>Implication for Gold</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>% of Global Consumption</strong></td>
+                        <td>~20% (850-900 MT/year)</td>
+                        <td>LARGEST jewelry consumer globally - India creates price floor</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Peak Demand Season</strong></td>
+                        <td>Dec-Mar (Wedding Season)</td>
+                        <td>40-45% of annual demand concentrated in 4 months</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Price Elasticity</strong></td>
+                        <td>-0.4 (Highly Inelastic)</td>
+                        <td>82% price rise causes only 4% demand decline - Cultural importance</td>
+                    </tr>
+                    <tr>
+                        <td><strong>RBI Gold Reserves</strong></td>
+                        <td>880.18 MT</td>
+                        <td>14.7% of reserves - HIGHEST since 1996-97. Strategic CB buying continues</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="highlight">
+                <strong>India's Role in Global Gold Market:</strong>
+                <ul>
+                    <li>India's 850-900 MT annual consumption represents 20% of global demand</li>
+                    <li>Wedding season (Dec-Mar) drives peak demand that remains resilient despite high prices</li>
+                    <li>RBI reserve building at 14.7% of total reserves supports structural CB demand</li>
+                    <li>Cultural and traditional importance of gold creates inelastic demand floor</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- SECTION 9 -->
+        <section>
+            <h2>9. Investment Recommendations by Investor Type</h2>
+            
+            <h3>Chart 18: Recommended Gold Allocation by Investor Profile</h3>
+            <div class="chart-container">
+                <canvas id="chart18"></canvas>
+            </div>
+
+            <h3>Investment Recommendations Matrix</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Investor Type</th>
+                        <th>Age</th>
+                        <th>Gold %</th>
+                        <th>Action</th>
+                        <th>Entry Target</th>
+                        <th>Expected 12M Return</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>CONSERVATIVE</strong></td>
+                        <td>55+</td>
+                        <td>12-15%</td>
+                        <td><span class="badge positive">STRONG ACCUMULATE</span></td>
+                        <td>₹13,800-14,000/g</td>
+                        <td>+10-15%</td>
+                    </tr>
+                    <tr>
+                        <td><strong>MODERATE</strong></td>
+                        <td>35-55</td>
+                        <td>7-10%</td>
+                        <td><span class="badge positive">BUY ON DIPS</span></td>
+                        <td>₹13,000-13,800/g</td>
+                        <td>+12-18%</td>
+                    </tr>
+                    <tr>
+                        <td><strong>AGGRESSIVE</strong></td>
+                        <td><35</td>
+                        <td>3-5%</td>
+                        <td>HOLD/WAIT</td>
+                        <td>₹12,000-12,800/g</td>
+                        <td>+5-10%</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Optimal Portfolio Allocation by Age</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Asset Class</th>
+                        <th>Conservative (Age 60)</th>
+                        <th>Moderate (Age 40)</th>
+                        <th>Aggressive (Age 25)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="background: #3498db; color: white;">
+                        <td><strong>Equities</strong></td>
+                        <td>40-45%</td>
+                        <td>60-65%</td>
+                        <td>80-85%</td>
+                    </tr>
+                    <tr style="background: #ffd700; color: #1a1a1a;">
+                        <td><strong>Gold</strong></td>
+                        <td>12-15%</td>
+                        <td>8-10%</td>
+                        <td>3-5%</td>
+                    </tr>
+                    <tr style="background: #2ecc71; color: white;">
+                        <td><strong>Bonds/Fixed Income</strong></td>
+                        <td>25-30%</td>
+                        <td>18-22%</td>
+                        <td>8-10%</td>
+                    </tr>
+                    <tr style="background: #95a5a6; color: white;">
+                        <td><strong>Cash/Money Market</strong></td>
+                        <td>5-8%</td>
+                        <td>3-5%</td>
+                        <td>2-3%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- SECTION 10 -->
+        <section>
+            <h2>10. Final Investment Verdict</h2>
+            
+            <h3>Chart 19: Bull Case Factors - Radar Analysis</h3>
+            <div class="chart-container">
+                <canvas id="chart19"></canvas>
+            </div>
+
+            <div class="highlight" style="background: #fff3cd; border-left: 5px solid #ffc107;">
+                <h3 style="color: #ffd700; font-size: 1.5rem; margin-bottom: 1.5rem; margin-top: 0;">🎯 FINAL RECOMMENDATION: GOLD AT ₹14,000/GRAM IS A BUY</h3>
+                
+                <strong>Risk-Reward Assessment:</strong>
+                <ul>
+                    <li><strong>Probability-Weighted Expected Return:</strong> +13.2% over 12 months to ₹15,850/gram</li>
+                    <li><strong>Base Case (55% probability):</strong> ₹16,000/gram = +14.3% return (MOST LIKELY)</li>
+                    <li><strong>Bull Case (30% probability):</strong> ₹18,000/gram = +28.6% upside potential</li>
+                    <li><strong>Bear Case (15% probability):</strong> ₹11,000/gram = -21.4% downside risk (UNLIKELY)</li>
+                </ul>
+
+                <strong>Why Gold is Attractive at Current Levels:</strong>
+                <ul>
+                    <li>Structural Central Bank Support: 634 MT purchased YTD (+12% YoY)</li>
+                    <li>Negative Real Interest Rates: -0.1% to +0.1% (optimal for gold)</li>
+                    <li>Geopolitical Risk Premium: Elevated tensions sustain safe-haven demand</li>
+                    <li>Rupee Weakness: 7.5% INR depreciation provides tailwind to INR prices</li>
+                    <li>De-dollarization Trend: Structural mega-trend supporting prices for 5-10+ years</li>
+                    <li>Crisis Hedge Proven: Delivered +17.8%, +30.2%, +12.5% during major crises</li>
+                </ul>
+
+                <strong>Recommended Actions (Implement Now):</strong>
+                <ul>
+                    <li><strong>Conservative Investors (Age 55+):</strong> ACCUMULATE 12-15% allocation. Monthly SIP ₹7,000-10,000. Mix: Physical gold 50-60%, SGBs 30-40%, Gold ETFs 10-20%</li>
+                    <li><strong>Moderate Investors (Age 35-55):</strong> BUY ON DIPS to 7-10% allocation. DCA ₹15,000-25,000/month into dips below ₹13,500/g. Quarterly rebalancing</li>
+                    <li><strong>Aggressive Investors (Age <35):</strong> HOLD 3-5% tactical allocation. Focus 70-80% on equities. Increase to 15-20% ONLY during 20%+ market crashes</li>
+                </ul>
+
+                <strong>12-Month Price Targets:</strong>
+                <ul>
+                    <li><strong>Next 6 Months (Jun 2026):</strong> ₹14,800-16,500/gram (Base: ₹15,600/g)</li>
+                    <li><strong>End of 2026 (12 months):</strong> Bull ₹18,000 | Base ₹16,000 | Bear ₹11,000</li>
+                    <li><strong>Key Catalysts:</strong> Wedding season demand, RBI policy, Fed decisions, geopolitical events</li>
+                </ul>
+            </div>
+
+            <div class="highlight">
+                <strong>Investment Philosophy Summary:</strong>
+                <p>Gold is NOT a growth engine—equities deliver 2-3x better returns over 20+ years (S&P 500: 10.3% CAGR vs Gold: 4.81% CAGR). However, gold IS the ultimate crisis hedge—during 2008 financial crisis, COVID crash, and 2022-23 bear market, gold delivered 15-30% gains while everything else crashed. Gold at ₹14,000/gram (₹140,000 per tola) represents fair value with attractive risk-reward skewed to upside (+13.2% expected return). Optimal strategy allocates 70-80% to equities for growth, 10-15% to gold for protection, and 5-10% to bonds for stability. This balanced approach captures equity growth while maintaining defensive positioning through gold's proven crisis-protection properties.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Gold Investment Analysis Report | December 27, 2025 | Professional Analysis with 19 Charts & Comprehensive Data</p>
+            <p style="margin-top: 1rem; font-size: 0.95rem;">Data Sources: World Gold Council, Reserve Bank of India, LBMA London, Federal Reserve, Trading Economics, Historical Market Data</p>
+            <div class="footer-linkedin">
+                <p><strong>Author:</strong> <a href="https://www.linkedin.com/in/singlakunal04" target="_blank">💼 Kunal Singla | LinkedIn</a></p>
+                <p style="margin-top: 0.5rem; font-size: 0.9rem;">Finance Enthusiast | CA Aspirant | Equity Research & Investment Analysis | Market Commentary</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        Chart.defaults.font.family = "'Segoe UI', sans-serif";
+        Chart.defaults.color = '#666';
+        Chart.defaults.plugins.legend.labels.usePointStyle = true;
+        
+        // Chart 1: Historical Price
+        new Chart(document.getElementById('chart1'), {
+            type: 'line',
+            data: {
+                labels: ['2010', '2012', '2014', '2016', '2018', '2020', '2022', '2024', '2025'],
+                datasets: [{
+                    label: 'Gold Price (₹/gram)',
+                    data: [2020, 2980, 2740, 2640, 3210, 5620, 5850, 7678, 14000],
+                    borderColor: '#ffd700',
+                    backgroundColor: 'rgba(255, 215, 0, 0.1)',
+                    borderWidth: 4,
+                    fill: true,
+                    tension: 0.4,
+                    pointRadius: 7,
+                    pointBackgroundColor: '#ffd700',
+                    pointBorderColor: '#fff',
+                    pointBorderWidth: 3
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { display: true } },
+                scales: { y: { title: { display: true, text: 'Price (₹/gram)' } } }
+            }
+        });
+
+        // Chart 2: Annual Returns
+        new Chart(document.getElementById('chart2'), {
+            type: 'bar',
+            data: {
+                labels: ['2010', '2012', '2014', '2016', '2018', '2019', '2020', '2022', '2024', '2025'],
+                datasets: [{
+                    label: 'Annual Return (%)',
+                    data: [31.2, 4.7, -2.5, -8.3, 5.2, 19.0, 47.1, -3.3, 12.6, 82.3],
+                    backgroundColor: (ctx) => ctx.parsed.y >= 0 ? '#27ae60' : '#e74c3c'
+                }]
+            },
+            options: { responsive: true, maintainAspectRatio: false, scales: { y: { title: { display: true, text: 'Return (%)' } } } }
+        });
+
+        // Chart 3: CB Buying
+        new Chart(document.getElementById('chart3'), {
+            type: 'line',
+            data: {
+                labels: ['2010', '2014', '2018', '2020', '2022', '2024', '2025'],
+                datasets: [{
+                    label: 'Annual CB Gold Purchases (MT)',
+                    data: [120, 155, 224, 318, 456, 516, 634],
+                    borderColor: '#e74c3c',
+                    backgroundColor: 'rgba(231, 76, 60, 0.1)',
+                    borderWidth: 4,
+                    fill: true,
+                    tension: 0.4,
+                    pointRadius: 7,
+                    pointBackgroundColor: '#e74c3c'
+                }]
+            },
+            options: { responsive: true, maintainAspectRatio: false, scales: { y: { title: { display: true, text: 'Tonnes' } } } }
+        });
+
+        // Chart 4: CB by Country
+        new Chart(document.getElementById('chart4'), {
+            type: 'bar',
+            data: {
+                labels: ['China', 'India', 'Russia', 'Saudi Arabia', 'UAE', 'Turkey', 'Others'],
+                datasets: [{
+                    label: '2025 YTD (MT)',
+                    data: [156.2, 42.8, 78.4, 28.5, 21.3, 15.2, 128.6],
+                    backgroundColor: ['#ffd700', '#f39c12', '#e74c3c', '#3498db', '#2ecc71', '#9b59b6', '#95a5a6']
+                }]
+            },
+            options: { responsive: true, maintainAspectRatio: false, scales: { y: { title: { display: true, text: 'Tonnes' } } } }
+        });
+
+        // Chart 5: Gold vs Silver 100-Year
+        new Chart(document.getElementById('chart5'), {
+            type: 'bar',
+            data: {
+                labels: ['Gold', 'Silver', 'S&P 500'],
+                datasets: [{ label: '$1 (1925) Grows to', data: [2062, 24, 300538], backgroundColor: ['#ffd700', '#c0c0c0', '#3498db'] }]
+            },
+            options: { responsive: true, maintainAspectRatio: false, scales: { y: { type: 'logarithmic', title: { display: true, text: 'Amount (Log)' } } } }
+        });
+
+        // Chart 6: Gold Price
+        new Chart(document.getElementById('chart6'), {
+            type: 'line',
+            data: {
+                labels: ['2015', '2017', '2019', '2021', '2023', '2025'],
+                datasets: [{
+                    label: 'Gold (₹/gram)',
+                    data: [2880, 3050, 3820, 6050, 6820, 14000],
+                    borderColor: '#ffd700',
+                    backgroundColor: 'rgba(255, 215, 0, 0.1)',
+                    borderWidth: 4,
+                    fill: true,
+                    tension: 0.4
+                }]
+            },
+            options: { responsive: true, maintainAspectRatio: false, scales: { y: { title: { display: true, text: 'Price (₹/gram)' } } } }
+        });
+
+        // Chart 7: Silver Price
+        new Chart(document.getElementById('chart7'), {
+            type: 'line',
+            data: {
+                labels: ['2015', '2017', '2019', '2021', '2023', '2025'],
+                datasets: [{
+                    label: 'Silver (₹/gram)',
+                    data: [378, 405, 545, 980, 1050, 1750],
+                    borderColor: '#c0c0c0',
+                    backgroundColor: 'rgba(192, 192, 192, 0.1)',
+                    borderWidth: 4,
+                    fill: true,
+                    tension: 0.4
+                }]
+            },
+            options: { responsive: true, maintainAspectRatio: false, scales: { y: { title: { display: true, text: 'Price (₹/gram)' } } } }
+        });
+
+        // Chart 8: GSR
+        new Chart(document.getElementById('chart8'), {
+            type: 'line',
+            data: {
+                labels: ['1998', '2006', '2014', '2018', '2022', '2025'],
+                datasets: [
+                    { label: 'GSR', data: [65, 55, 68, 87, 92, 82], borderColor: '#e74c3c', backgroundColor: 'rgba(231, 76, 60, 0.1)', borderWidth: 3, fill: true },
+                    { label: 'Historical Avg (67)', data: [67, 67, 67, 67, 67, 67], borderColor: '#27ae60', borderDash: [5, 5], borderWidth: 2, fill: false }
+                ]
+            },
+            options: { responsive: true, maintainAspectRatio: false, scales: { y: { title: { display: true, text: 'Ratio' } } } }
+        });
+
+        // Chart 9: Real Rates
+        new Chart(document.getElementById('chart9'), {
+            type: 'line',
+            data: {
+                labels: ['2010', '2014', '2018', '2020', '2022', '2024', '2025'],
+                datasets: [
+                    { label: 'Gold (₹/gram)', data: [2020, 2740, 3210, 5620, 5850, 7678, 14000], yAxisID: 'y', borderColor: '#ffd700', borderWidth: 3, tension: 0.4 },
+                    { label: 'Real Rate (%)', data: [2.1, 1.2, 0.8, -1.2, 2.1, 0.3, -0.1], yAxisID: 'y1', borderColor: '#e74c3c', borderDash: [5, 5], borderWidth: 2 }
+                ]
+            },
+            options: { responsive: true, maintainAspectRatio: false, scales: { y: { title: { display: true, text: 'Gold Price' } }, y1: { position: 'right', title: { display: true, text: 'Real Rate (%)' }, grid: { drawOnChartArea: false } } } }
+        });
+
+        // Chart 10: Inflation
+        new Chart(document.getElementById('chart10'), {
+            type: 'bar',
+            data: {
+                labels: ['2010', '2014', '2018', '2020', '2022', '2024', '2025'],
+                datasets: [
+                    { label: 'Gold Return (%)', data: [31.2, -2.5, 5.2, 47.1, -3.3, 12.6, 82.3], backgroundColor: '#27ae60' },
+                    { label: 'Inflation (%)', data: [10.2, 5.8, 5.8, 6.7, 6.7, 5.4, 4.2], backgroundColor: '#e74c3c' }
+                ]
+            },
+            options: { responsive: true, maintainAspectRatio: false, scales: { y: { title: { display: true, text: 'Percentage (%)' } } } }
+        });
+
+        // Chart 11: Scenario Probability
+        new Chart(document.getElementById('chart11'), {
+            type: 'bar',
+            data: {
+                labels: ['Bull\n₹18K', 'Base\n₹16K', 'Bear\n₹11K'],
+                datasets: [{ label: 'Probability (%)', data: [30, 55, 15], backgroundColor: ['#27ae60', '#f39c12', '#e74c3c'] }]
+            },
+            options: { responsive: true, maintainAspectRatio: false, scales: { y: { max: 100 } } }
+        });
+
+        // Chart 12: Price Forecast
+        new Chart(document.getElementById('chart12'), {
+            type: 'line',
+            data: {
+                labels: ['Dec 2025', 'Q1 2026', 'Q2 2026', 'Q3 2026', 'Q4 2026'],
+                datasets: [
+                    { label: 'Bull (₹18K)', data: [14000, 15500, 17000, 17500, 18000], borderColor: '#27ae60', borderWidth: 2 },
+                    { label: 'Base (₹16K)', data: [14000, 14800, 15600, 15800, 16000], borderColor: '#f39c12', borderWidth: 3 },
+                    { label: 'Bear (₹11K)', data: [14000, 13000, 12000, 11500, 11000], borderColor: '#e74c3c', borderWidth: 2 }
+                ]
+            },
+            options: { responsive: true, maintainAspectRatio: false, scales: { y: { title: { display: true, text: 'Price (₹/gram)' } } } }
+        });
+
+        // Chart 13: Crisis Performance
+        new Chart(document.getElementById('chart13'), {
+            type: 'bar',
+            data: {
+                labels: ['2008 Crisis', 'COVID-19', '2022-23 Bear', 'Inflation'],
+                datasets: [
+                    { label: 'Gold (%)', data: [17.8, 30.2, 12.5, 7.2], backgroundColor: '#ffd700' },
+                    { label: 'S&P 500 (%)', data: [-57.0, -35.0, -28.7, 4.0], backgroundColor: '#3498db' },
+                    { label: 'Bonds (%)', data: [20.3, 10.7, -13.0, -27.4], backgroundColor: '#2ecc71' }
+                ]
+            },
+            options: { responsive: true, maintainAspectRatio: false, scales: { y: { title: { display: true, text: 'Return (%)' } } } }
+        });
+
+        // Chart 14: 100-Year
+        new Chart(document.getElementById('chart14'), {
+            type: 'bar',
+            data: {
+                labels: ['Gold', 'Silver', 'S&P 500'],
+                datasets: [{ label: '$1 (1925) → 2023', data: [2062.60, 24.30, 300538], backgroundColor: ['#ffd700', '#c0c0c0', '#3498db'] }]
+            },
+            options: { responsive: true, maintainAspectRatio: false, scales: { y: { type: 'logarithmic' } } }
+        });
+
+        // Chart 15: Demand Pie
+        new Chart(document.getElementById('chart15'), {
+            type: 'doughnut',
+            data: {
+                labels: ['Jewelry (44%)', 'Investment (24%)', 'Central Banks (25%)', 'Industrial (7%)'],
+                datasets: [{ data: [44.2, 24.3, 24.7, 7.4], backgroundColor: ['#ffd700', '#3498db', '#e74c3c', '#2ecc71'] }]
+            },
+            options: { responsive: true, maintainAspectRatio: false }
+        });
+
+        // Chart 16: Top Consumers
+        new Chart(document.getElementById('chart16'), {
+            type: 'bar',
+            data: {
+                labels: ['India', 'China', 'USA', 'Middle East', 'Europe', 'Thailand', 'Others'],
+                datasets: [{ label: 'Gold Consumption (MT)', data: [850, 750, 180, 280, 210, 130, 817], backgroundColor: '#ffd700' }]
+            },
+            options: { responsive: true, maintainAspectRatio: false, scales: { y: { title: { display: true, text: 'Tonnes' } } } }
+        });
+
+        // Chart 17: Seasonal
+        new Chart(document.getElementById('chart17'), {
+            type: 'bar',
+            data: {
+                labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+                datasets: [{ label: 'Demand Index', data: [95, 88, 90, 72, 65, 68, 70, 75, 78, 105, 112, 118], backgroundColor: '#ffd700' }]
+            },
+            options: { responsive: true, maintainAspectRatio: false, scales: { y: { title: { display: true, text: 'Index' } } } }
+        });
+
+        // Chart 18: Allocation
+        new Chart(document.getElementById('chart18'), {
+            type: 'bar',
+            data: {
+                labels: ['Conservative\n(55+)', 'Moderate\n(35-55)', 'Aggressive\n(<35)'],
+                datasets: [{ label: 'Gold %', data: [13.5, 8.5, 4], backgroundColor: '#ffd700' }]
+            },
+            options: { responsive: true, maintainAspectRatio: false, scales: { y: { max: 15, title: { display: true, text: 'Portfolio %' } } } }
+        });
+
+        // Chart 19: Thesis Radar
+        new Chart(document.getElementById('chart19'), {
+            type: 'radar',
+            data: {
+                labels: ['CB Buying', 'Real Rates', 'Geopolitical', 'Currency', 'De-dollarization', 'Technical', 'Crisis Hedge'],
+                datasets: [{
+                    label: 'Bull Factors',
+                    data: [95, 85, 80, 85, 80, 90, 95],
+                    borderColor: '#27ae60',
+                    backgroundColor: 'rgba(39, 174, 96, 0.2)'
+                }]
+            },
+            options: { responsive: true, maintainAspectRatio: false, scales: { r: { beginAtZero: true, max: 100 } } }
+        });
+    </script>
+</body>
+</html>
